@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <link rel="icon" href="http://localhost:3000/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Web site created using create-react-app">
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="http://localhost:3000/manifest.json">
+ <link rel="stylesheet" href="./Pedro Read APP_files/bootstrap.min.css">
+
+
+  <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>Pedro Read APP</title>
+<script defer="" src="./Pedro Read APP_files/bundle.js.descarga"></script><style>body {
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.row {
+  width: 90%;
+  margin: auto;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.BuscarC {
+  width: 80%;
+}
+
+.Boton {
+  width: 100px;
+  position: absolute;
+  left: 80%;
+}
+
+
+/* @media screen and (max-width: 500px){
+  html{
+    width: 100%;
+  }
+  body{
+    margin: 0 auto;
+  }
+  
+  .row{
+    width: 90%;
+    margin: auto;
+  }
+  
+  .content{
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;   
+  }
+  
+  .BuscarC{
+    width: 80%;
+  }
+  .form-control-lg {
+    min-height: calc(1.5em + 1rem + 2px);
+    padding: 0.5rem 1rem;
+    font-size: 1.0rem;
+    border-radius: 0.7rem;
+}
+  
+  .Boton{
+    width: 100%;
+  }
+}
+*/
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxjQUFjO0VBQ2Q7O2NBRVk7RUFDWixtQ0FBbUM7RUFDbkMsa0NBQWtDO0FBQ3BDOztBQUVBO0VBQ0UsVUFBVTtFQUNWLFlBQVk7QUFDZDs7QUFFQTtFQUNFLFdBQVc7RUFDWCxhQUFhO0VBQ2IsNkJBQTZCO0FBQy9COztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UsWUFBWTtFQUNaLGtCQUFrQjtFQUNsQixTQUFTO0FBQ1g7OztBQUdBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Q0FpQ0M7QUFDRDtFQUNFO2FBQ1c7QUFDYiIsInNvdXJjZXNDb250ZW50IjpbImJvZHkge1xuICBtYXJnaW46IDAgYXV0bztcbiAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgJ1JvYm90bycsICdPeHlnZW4nLFxuICAgICdVYnVudHUnLCAnQ2FudGFyZWxsJywgJ0ZpcmEgU2FucycsICdEcm9pZCBTYW5zJywgJ0hlbHZldGljYSBOZXVlJyxcbiAgICBzYW5zLXNlcmlmO1xuICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcbiAgLW1vei1vc3gtZm9udC1zbW9vdGhpbmc6IGdyYXlzY2FsZTtcbn1cblxuLnJvdyB7XG4gIHdpZHRoOiA5MCU7XG4gIG1hcmdpbjogYXV0bztcbn1cblxuLmNvbnRlbnQge1xuICB3aWR0aDogMTAwJTtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1ldmVubHk7XG59XG5cbi5CdXNjYXJDIHtcbiAgd2lkdGg6IDgwJTtcbn1cblxuLkJvdG9uIHtcbiAgd2lkdGg6IDEwMHB4O1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGxlZnQ6IDgwJTtcbn1cblxuXG4vKiBAbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA1MDBweCl7XG4gIGh0bWx7XG4gICAgd2lkdGg6IDEwMCU7XG4gIH1cbiAgYm9keXtcbiAgICBtYXJnaW46IDAgYXV0bztcbiAgfVxuICBcbiAgLnJvd3tcbiAgICB3aWR0aDogOTAlO1xuICAgIG1hcmdpbjogYXV0bztcbiAgfVxuICBcbiAgLmNvbnRlbnR7XG4gICAgIHdpZHRoOiAxMDAlO1xuICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTsgICBcbiAgfVxuICBcbiAgLkJ1c2NhckN7XG4gICAgd2lkdGg6IDgwJTtcbiAgfVxuICAuZm9ybS1jb250cm9sLWxnIHtcbiAgICBtaW4taGVpZ2h0OiBjYWxjKDEuNWVtICsgMXJlbSArIDJweCk7XG4gICAgcGFkZGluZzogMC41cmVtIDFyZW07XG4gICAgZm9udC1zaXplOiAxLjByZW07XG4gICAgYm9yZGVyLXJhZGl1czogMC43cmVtO1xufVxuICBcbiAgLkJvdG9ue1xuICAgIHdpZHRoOiAxMDAlO1xuICB9XG59XG4qL1xuY29kZSB7XG4gIGZvbnQtZmFtaWx5OiBzb3VyY2UtY29kZS1wcm8sIE1lbmxvLCBNb25hY28sIENvbnNvbGFzLCAnQ291cmllciBOZXcnLFxuICAgIG1vbm9zcGFjZTtcbn0iXSwic291cmNlUm9vdCI6IiJ9 */</style></head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"><div class="app container"><div class="jumbotron"><p class="lead text-center">Buscador de Imagenes</p><form><div class="row"><div class="BuscarC"><div class="form-group col-md-8"><input type="text" class="form-control form-control-lg" placeholder="Busca tu Imagen. Ejemplo: Futbol"></div></div><div class="Boton"><div class="form-group col-md-4"><input type="submit" class="btn btn-lg btn-danger btn.block" value="Buscar"></div></div></div></form></div><div class="row justify-content-center"><div class="col-12 p-5 row"><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2018/06/29/22/45/wheat-3506758_150.jpg" alt="wheat, cornfield, sunset" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: wheat, cornfield, sunset </p><p class="card-text">108964 Vistas </p><a href="https://pixabay.com/get/ge85c5e5f9a9a6d35dc344279f3547215c2aba7ba067f37415192e6dda8d79dae7368e151508dd9e23a456022b6e907eb221eb6082608f6548ae7a8d0a8b72a45_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2020/11/04/13/29/cereal-5712343_150.jpg" alt="cereal, food, breakfast" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: cereal, food, breakfast </p><p class="card-text">15243 Vistas </p><a href="https://pixabay.com/get/g8ebc9600613b6f22e2530c4201a6c56995cbe9087c5ad3c2e4c5abd6eccea1909f845de27cc5e213e0062bca0986533a169b328cb1c2ca574622e318713b4767_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2017/03/05/01/22/barley-2117454_150.jpg" alt="barley, cereal cultivation, barley cultivation" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: barley, cereal cultivation, barley cultivation </p><p class="card-text">102268 Vistas </p><a href="https://pixabay.com/get/g7f351d842b81387e860e5821628e3351c1ae439678fa1cb574dab14ac3a3ceedff4eea2a1fa6645a0c2a92905837053a86b5f01cfe62ef7db0a24027d2bddd17_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2016/06/08/19/46/cereal-1444495_150.jpg" alt="cereal, spoon, milk" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: cereal, spoon, milk </p><p class="card-text">70772 Vistas </p><a href="https://pixabay.com/get/ga4e62dd72fcd51b516828cd2ffd7f4781ea7607b178a847fc580d928fb9bafc7afb51633ca7796631ad7fd31490fae7cccf7a07835a2ba568ed836bca83106e3_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2020/05/05/12/23/breakfast-5132879_150.jpg" alt="breakfast, cereal, oats" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: breakfast, cereal, oats </p><p class="card-text">9854 Vistas </p><a href="https://pixabay.com/get/g3d83c53be3e329d85f7f7d61bd68cbd3367c45c0326d94018a661d7271be4b9ba5ac3a853dabc4058d878d253aaad95563533432d7d5cb40aa4a0db198807877_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2018/03/21/23/21/nuts-3248743_150.jpg" alt="nuts, almonds, seeds" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: nuts, almonds, seeds </p><p class="card-text">71883 Vistas </p><a href="https://pixabay.com/get/gede2d643a9d089bd78b902c9b260cd69466c9370c72153ccba67240f6f863fc6454861d5eebba1f9fb0ee68a07041374dee562eaf5564e78185a0885df3b7563_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2022/03/09/15/15/breakfast-7058063_150.jpg" alt="breakfast, cereal, blueberries" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: breakfast, cereal, blueberries </p><p class="card-text">4202 Vistas </p><a href="https://pixabay.com/get/g5870a97348aa80e34b9a34c45b59fa56d87f635e729ff14dd20681bf1e256ef176beedc341ef4ad716c61d2bf5193e2f38ed94eda81b6fcfe70dec9477a71d19_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2021/06/17/19/06/sunset-6344387_150.jpg" alt="sunset, meadow, grass" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: sunset, meadow, grass </p><p class="card-text">155824 Vistas </p><a href="https://pixabay.com/get/g979e386ccea704d9fa2292f61acc57bd818285269447f27536175b769681efcdd15ecd59b59922dc6459ef9ed77e3d19730958d012a3804468b3d24c2d2b38d5_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2016/12/06/18/27/cereal-1887237_150.jpg" alt="cereal, milk, breakfast" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: cereal, milk, breakfast </p><p class="card-text">79411 Vistas </p><a href="https://pixabay.com/get/gf7c98a6a0bf94c5ab291ce041b3156a59af1157d82fe23d6c9283a1f74292b4320d1b50fe6241665699fc7a12ebc927652159cba13771a655eaf8855a461acb0_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2015/07/28/22/11/wheat-865152_150.jpg" alt="wheat, ear, dry" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: wheat, ear, dry </p><p class="card-text">167695 Vistas </p><a href="https://pixabay.com/get/gf246d0c15b55b3c0fda6eafc0302397b710f94102f63b65f5e616d4c83fede5fef94bad1feef52bcca79d412f1bd2072_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2016/11/21/15/53/berries-1846085_150.jpg" alt="berries, muesli, blackberries" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: berries, muesli, blackberries </p><p class="card-text">64492 Vistas </p><a href="https://pixabay.com/get/g9dfd1ec64932bdce2c30d533b1279a198982395b41ad8baecfe29efe35333c46abdc9cd385304db5c33f47b799ce3bd9a1541f7095a5f8ae3ed79dcf4d90d562_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2014/12/11/02/55/cereals-563796_150.jpg" alt="cereals, cup, muesli" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: cereals, cup, muesli </p><p class="card-text">130971 Vistas </p><a href="https://pixabay.com/get/g88e3bddcdb9bb084165c9b19c43269b2be4123268d1bf812f2e8e25125a3a615b3255e775124893e8ff358efc845c82e_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2021/07/20/11/50/poppies-6480490_150.jpg" alt="poppies, field, meadow" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: poppies, field, meadow </p><p class="card-text">44948 Vistas </p><a href="https://pixabay.com/get/g1b417a600c76c881e14d67fcca6a2d4facb5a7e6f0eea175de603fc070514a8469cb2e588d5f24b4becc68cd7c0b3976be89d36c7a788234be8c12aa02d6e129_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2020/02/18/06/25/grain-4858574_150.jpg" alt="grain, cereals, field" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: grain, cereals, field </p><p class="card-text">125683 Vistas </p><a href="https://pixabay.com/get/gff8ce526edd727e60e3ed1e8f7def7d4c65faf8329d6708c202b4ca7f2f249ac0a1df5ad15c9f825a7545ad7050b82a8bec15e842ddec8243a46fc95101823f5_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2016/11/21/14/57/wheat-1845835_150.jpg" alt="wheat, wheat crops, barley" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: wheat, wheat crops, barley </p><p class="card-text">176536 Vistas </p><a href="https://pixabay.com/get/g7b30b7cc2c1e42d21a4de1216137c38e6b0e8ce986ae425a75b023decb902721886b4b72854552bbbfd65ba073e9dba112a63f9624c8406dfbd1600c89729bdf_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2021/08/28/19/13/wheat-field-6581723_150.jpg" alt="wheat field, cereal plant, field" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: wheat field, cereal plant, field </p><p class="card-text">13960 Vistas </p><a href="https://pixabay.com/get/g495ecf88d63c4ffd669ca18f5de1822ffb53d6ee836d0f60545cf4e3243dace889b1c99b123297bca6e5aa2fafaf219b5b668e6f46322653bf98c72d1fa6ebba_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2015/08/20/20/07/cereal-898073_150.jpg" alt="cereal, breakfast, meal" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: cereal, breakfast, meal </p><p class="card-text">111317 Vistas </p><a href="https://pixabay.com/get/g1c47795010f702bac920a39a1612dc993d0a3ab6a4618a32c3841f50197ff777562257175a65b30e6442cd8baf27831c_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2015/03/16/19/54/barley-676551_150.jpg" alt="barley, dried grass, cereal grain" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: barley, dried grass, cereal grain </p><p class="card-text">67822 Vistas </p><a href="https://pixabay.com/get/g888435534aa5ea166169a8d04df0628942e676a0533f4d13110232ec78572b39bcc8b69d342f8d9a324a6947ea0fc2d3_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2021/06/28/18/36/cereals-6372410_150.jpg" alt="cereals, grain, field" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: cereals, grain, field </p><p class="card-text">38046 Vistas </p><a href="https://pixabay.com/get/gde6912b653e90a54040aee642af0dcedf2d8765d15a6c69d6ff25eab9d6e0c4ff724f90d4efe55df8ea1539e7de368bd3d4f12e291d64ee9078f676c87738be5_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div><div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"><div class="card"><img src="https://cdn.pixabay.com/photo/2018/03/19/20/20/wheat-3241114_150.jpg" alt="wheat, field, cereals" class="card-img-top"><div class="card-body"><p class="card-text">Etiquetas: wheat, field, cereals </p><p class="card-text">81302 Vistas </p><a href="https://pixabay.com/get/gfd50ae2fb6e2f9e84d5fca3601192df11240fc82984454135be94d38903b35316a9747cad4cba74d7640d36ee1422ad35eb7ea4ac3e6bf58ea4156cf91bad6b5_1280.jpg" target="_blank" class="btn  btn-primary btn-block">Ver Imagen</a></div></div></div></div><div class="py-3"><button type="button" class="btn btn-info mr-1">Anterior ←</button><button type="button" class="btn btn-info mr-1">Siguiente →</button></div></div></div></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+
+
+
+</body></html>
